@@ -100,7 +100,7 @@ final private class AmbSink<Observer: ObserverType>: Sink<Observer> {
         let subscription2 = SingleAssignmentDisposable()
         let disposeAll = Disposables.create(subscription1, subscription2)
         
-        let forwardEvent = { (o: AmbObserverType, event: Event<Element>) -> Void in
+        let forwardEvent = { (_: AmbObserverType, event: Event<Element>) -> Void in
             self.forwardOn(event)
             if event.isStopEvent {
                 self.dispose()
