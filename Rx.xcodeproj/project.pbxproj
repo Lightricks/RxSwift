@@ -2568,7 +2568,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2897D4F225CA1E7004EA481 /* Build configuration list for PBXNativeTarget "RxRelay" */;
 			buildPhases = (
-				A2897CB4225CA1E7004EA481 /* SwiftLint */,
 				A2897CB5225CA1E7004EA481 /* Headers */,
 				A2897CB6225CA1E7004EA481 /* Sources */,
 				A2897D4D225CA1E7004EA481 /* Resources */,
@@ -2588,7 +2587,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C80939691B8A71760088E94D /* Build configuration list for PBXNativeTarget "RxCocoa" */;
 			buildPhases = (
-				A21D625B21E1D80F00E3E359 /* SwiftLint */,
 				C80939641B8A71760088E94D /* Headers */,
 				C80938F61B8A71760088E94D /* Sources */,
 				C80939681B8A71760088E94D /* Resources */,
@@ -2609,7 +2607,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8093BC31B8A71F00088E94D /* Build configuration list for PBXNativeTarget "RxBlocking" */;
 			buildPhases = (
-				A21D625C21E1D82B00E3E359 /* SwiftLint */,
 				C8093BBA1B8A71F00088E94D /* Headers */,
 				C8093B4C1B8A71F00088E94D /* Sources */,
 				C8093BBE1B8A71F00088E94D /* Resources */,
@@ -2709,7 +2706,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C88FA5081C25C44800CCFEA4 /* Build configuration list for PBXNativeTarget "RxTest" */;
 			buildPhases = (
-				A21D625D21E1D83800E3E359 /* SwiftLint */,
 				C88FA5061C25C44800CCFEA4 /* Headers */,
 				C88FA5001C25C44800CCFEA4 /* Sources */,
 				C88FA5071C25C44800CCFEA4 /* Resources */,
@@ -2729,7 +2725,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8A56AED1AD7424700B4673B /* Build configuration list for PBXNativeTarget "RxSwift" */;
 			buildPhases = (
-				A21F589121E109AD0051AEA2 /* SwiftLint */,
 				C8A56AD41AD7424700B4673B /* Headers */,
 				C8A56AD21AD7424700B4673B /* Sources */,
 				C8A56AD51AD7424700B4673B /* Resources */,
@@ -2907,119 +2902,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		A21D625B21E1D80F00E3E359 /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			dependencyFile = "$(DERIVED_FILES_DIR)/swiftlint.marker.d";
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/swiftlint.marker",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"$SRCROOT\"/scripts/swiftlint-phase.sh\n";
-			showEnvVarsInLog = 0;
-		};
-		A21D625C21E1D82B00E3E359 /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			dependencyFile = "$(DERIVED_FILES_DIR)/swiftlint.marker.d";
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/swiftlint.marker",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"$SRCROOT\"/scripts/swiftlint-phase.sh\n";
-			showEnvVarsInLog = 0;
-		};
-		A21D625D21E1D83800E3E359 /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			dependencyFile = "$(DERIVED_FILES_DIR)/swiftlint.marker.d";
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/swiftlint.marker",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"$SRCROOT\"/scripts/swiftlint-phase.sh\n";
-			showEnvVarsInLog = 0;
-		};
-		A21F589121E109AD0051AEA2 /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			dependencyFile = "$(DERIVED_FILES_DIR)/swiftlint.marker.d";
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/swiftlint.marker",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"$SRCROOT\"/scripts/swiftlint-phase.sh\n";
-			showEnvVarsInLog = 0;
-		};
-		A2897CB4225CA1E7004EA481 /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			dependencyFile = "$(DERIVED_FILES_DIR)/swiftlint.marker.d";
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/swiftlint.marker",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"$SRCROOT\"/scripts/swiftlint-phase.sh\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A2897CB6225CA1E7004EA481 /* Sources */ = {
